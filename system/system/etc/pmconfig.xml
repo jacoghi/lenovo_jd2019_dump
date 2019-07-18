@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PMConfig model="JD19" version="1">
+    <SetProp name = "sys.max_allowed_frame_drop_cnt" value = "5"></SetProp>
+    <TypedList>
+        <!--
+        <Item name = "DEFAULT">
+            <maxBigCore>1401600</maxBigCore>
+            <maxLittleCore>1113600</maxLittleCore>
+        </Item>
+        -->
+        <!--
+        <Item name = "DEFAULT_CPUINTENSIVE">
+            <maxBigCore>1094000</maxBigCore>
+            <maxLittleCore>1401000</maxLittleCore>
+        </Item>
+        -->
+        <Item name = "game">
+            <minBigCore>2208000</minBigCore>
+            <minLittleCore>1708800</minLittleCore>
+        </Item>
+        <Item name = "LowPower">
+            <maxBigCore>1363200</maxBigCore>
+            <maxLittleCore>1209600</maxLittleCore>
+        </Item>
+    </TypedList>
+
+    <!-- for some special packages -->
+    <!--
+    <PackageList>
+        <Item name = "com.tencent.tmgp.sgame">
+            <minBigCore>2016000</minBigCore>
+            <minLittleCore>2016000</minLittleCore>
+        </Item>
+    </PackageList>
+    -->
+</PMConfig>
