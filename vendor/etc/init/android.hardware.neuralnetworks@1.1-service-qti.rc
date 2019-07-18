@@ -1,0 +1,9 @@
+service neuralnetworks_hal_service /vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-qti
+    class hal
+    user system
+    group system
+    disabled
+
+# neuralnetworks_hal_service need create file in /data, so start it on property:dev.bootcomplete=1
+on property:dev.bootcomplete=1
+    start neuralnetworks_hal_service
