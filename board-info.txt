@@ -1,0 +1,2 @@
+require version-baseband=4.0.2-00518-SDM710_GEN_PACK-1
+require version-vendor=1561967259
